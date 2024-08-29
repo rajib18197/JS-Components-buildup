@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 
 /*** Solution-01: Implemented by Complete DOM Manipulation Operations. No altering in CSS classes. **/
 
