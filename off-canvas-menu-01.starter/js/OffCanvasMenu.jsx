@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef, useState } from "react";
 
+/*** Solution-01: Implemented by Complete DOM Manipulation Operations. No altering in CSS classes. **/
 export default function OffCanvasMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -57,6 +58,8 @@ export default function OffCanvasMenu() {
     </div>
   );
 }
+
+/***** Solution-02: Implemented by Toggling Classnames. No direct DOM Manipulation. ******/
 
 // export default function OffCanvasMenu() {
 //   const [isOpen, setIsOpen] = useState(false);
